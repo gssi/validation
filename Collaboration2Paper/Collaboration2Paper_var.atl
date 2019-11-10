@@ -1,0 +1,22 @@
+-- @atlcompiler emftvm
+-- @nsURI MM=http://easychair.org/collaboration
+-- @nsURI MM1=http://easychair.org/paper
+
+module Collaboration2Paper_var;
+create OUT : Paper from IN : Collaboration;
+
+rule Model2Model{
+	from s:Collaboration!CollaborationModel
+	to t: Paper!Papers(
+		papers<-s.collaborations
+	)
+}
+
+rule Collaboration2Paper{
+	
+	from s:Collaboration!Collaboration
+	to t:Paper!Paper(
+	title<-s.researchTitle--,
+	--authors<-s.researchers
+	)
+}

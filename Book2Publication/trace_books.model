@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<trace:TraceLinkSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://www.eclipse.org/m2m/atl/emftvm/2011/Trace" defaultSourceElements="//@rules.0/@links.0/@sourceElements.0 //@rules.1/@links.0/@sourceElements.0 //@rules.2/@links.0/@sourceElements.0 //@rules.2/@links.1/@sourceElements.0 //@rules.3/@links.0/@sourceElements.0">
+  <rules rule="Library2Publications">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="books.model#_VwQT8OA-EemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="publications.model#/"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Book2Publication">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="books.model#_YDcCsP-nEemUkNVyKpgbBA"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="publications.model#//@pubs.0"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Section2Section">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="books.model#_gQKzkP-nEemUkNVyKpgbBA"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="publications.model#//@pubs.0/@sections.1"/>
+      </targetElements>
+    </links>
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="books.model#_h5VJwP-nEemUkNVyKpgbBA"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="publications.model#//@pubs.0/@sections.2"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Paragraph2Section">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="books.model#_O-c-4P_NEemTjfjFFYbrew"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="publications.model#//@pubs.0/@sections.0"/>
+      </targetElements>
+    </links>
+  </rules>
+</trace:TraceLinkSet>

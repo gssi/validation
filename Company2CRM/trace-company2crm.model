@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<trace:TraceLinkSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://www.eclipse.org/m2m/atl/emftvm/2011/Trace" defaultSourceElements="//@rules.0/@links.0/@sourceElements.0 //@rules.0/@links.1/@sourceElements.0 //@rules.1/@links.0/@sourceElements.0 //@rules.2/@links.0/@sourceElements.0 //@rules.3/@links.0/@sourceElements.0 //@rules.4/@links.0/@sourceElements.0 //@rules.4/@links.1/@sourceElements.0">
+  <rules rule="Company2CRM">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_ilWwUAMrEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/0"/>
+      </targetElements>
+    </links>
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_ENpVkAMsEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/1"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Person2Worker">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_F2h-8AMsEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/1/@accounts.0"/>
+      </targetElements>
+      <targetElements name="t1">
+        <object href="crm.model#/2"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Person2Client">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_mjNtAAMrEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/0/@accounts.0"/>
+      </targetElements>
+      <targetElements name="t1">
+        <object href="crm.model#/3"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="European2Project">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_tXUeEAMrEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/0/@projects.0"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="National2Project">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_636VQAMrEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/0/@projects.1"/>
+      </targetElements>
+    </links>
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="companies.model#_az2GYAMsEeqtleBlOBJeXQ"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="crm.model#/1/@projects.0"/>
+      </targetElements>
+    </links>
+  </rules>
+</trace:TraceLinkSet>

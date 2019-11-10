@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<trace:TraceLinkSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://www.eclipse.org/m2m/atl/emftvm/2011/Trace" defaultSourceElements="//@rules.0/@links.0/@sourceElements.0 //@rules.1/@links.0/@sourceElements.0 //@rules.2/@links.0/@sourceElements.0 //@rules.2/@links.1/@sourceElements.0 //@rules.2/@links.2/@sourceElements.0">
+  <rules rule="Model2Model">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="collaborations.model#_E6Q5YNq7EemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="papers.model#/"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Collaboration2Paper">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="collaborations.model#_F2ZKcNq7EemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="papers.model#//@papers.0"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Researcher2Author">
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="collaborations.model#_Ge8_QNq7EemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="papers.model#//@papers.0/@authors.0"/>
+      </targetElements>
+    </links>
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="collaborations.model#_Qa1ZkNq7EemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="papers.model#//@papers.0/@authors.1"/>
+      </targetElements>
+    </links>
+    <links>
+      <sourceElements name="s" defaultFor="/">
+        <object href="collaborations.model#_KpIJ8AIpEeqTjfjFFYbrew"/>
+      </sourceElements>
+      <targetElements name="t">
+        <object href="papers.model#//@papers.0/@authors.2"/>
+      </targetElements>
+    </links>
+  </rules>
+</trace:TraceLinkSet>

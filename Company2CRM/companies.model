@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<company:CompanyModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:company="http://cs.gssi.it/company" xmi:id="_hNciMAMrEeqtleBlOBJeXQ">
+  <company xmi:id="_ilWwUAMrEeqtleBlOBJeXQ" name="IBM" address="_-QGjoAMsEeqtleBlOBJeXQ">
+    <persons xmi:id="_mjNtAAMrEeqtleBlOBJeXQ" firstname="Mario" lastname="Rossi" assignedTo="_tXUeEAMrEeqtleBlOBJeXQ"/>
+    <projects xsi:type="company:European" xmi:id="_tXUeEAMrEeqtleBlOBJeXQ" name="BIRDS" related="_vWQ3AAMrEeqtleBlOBJeXQ" budget="4000"/>
+    <projects xsi:type="company:National" xmi:id="_636VQAMrEeqtleBlOBJeXQ" name="Gairgoyle" related="_vWQ3AAMrEeqtleBlOBJeXQ" budget="500"/>
+  </company>
+  <company xmi:id="_ENpVkAMsEeqtleBlOBJeXQ" name="Nokia" address="_-QGjoAMsEeqtleBlOBJeXQ">
+    <persons xmi:id="_F2h-8AMsEeqtleBlOBJeXQ" firstname="John" lastname="Doe" position="employee" assignedTo="_az2GYAMsEeqtleBlOBJeXQ"/>
+    <projects xsi:type="company:National" xmi:id="_az2GYAMsEeqtleBlOBJeXQ" name="DFAProj" related="_vWQ3AAMrEeqtleBlOBJeXQ"/>
+  </company>
+  <categories xmi:id="_vWQ3AAMrEeqtleBlOBJeXQ" name="Smart City" topics="_xE6xMAMrEeqtleBlOBJeXQ"/>
+  <topics xmi:id="_xE6xMAMrEeqtleBlOBJeXQ" id="IoT" category="_vWQ3AAMrEeqtleBlOBJeXQ"/>
+  <address xmi:id="_-QGjoAMsEeqtleBlOBJeXQ" city="Rome" completeAddress="v.le crispi 90"/>
+</company:CompanyModel>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<trace:TraceLinkSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://www.eclipse.org/m2m/atl/emftvm/2011/Trace" defaultSourceElements="//@rules.0/@links.0/@sourceElements.0 //@rules.1/@links.0/@sourceElements.0 //@rules.2/@links.0/@sourceElements.0 //@rules.3/@links.0/@sourceElements.0">
+  <rules rule="PetriNet">
+    <links>
+      <sourceElements name="g" defaultFor="/">
+        <object href="grafcet.model#_EVAOANqsEemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="p">
+        <object href="petrinet.model#/"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Place">
+    <links>
+      <sourceElements name="g" defaultFor="/">
+        <object href="grafcet.model#_IJhBcNqsEemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="p">
+        <object href="petrinet.model#//@elements.0"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="Transition">
+    <links>
+      <sourceElements name="g" defaultFor="/">
+        <object href="grafcet.model#_KyRzcNqsEemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="p">
+        <object href="petrinet.model#//@elements.1"/>
+      </targetElements>
+    </links>
+  </rules>
+  <rules rule="PlaceToTransition">
+    <links>
+      <sourceElements name="g" defaultFor="/">
+        <object href="grafcet.model#_MMOB4NqsEemS-cu8nkBOig"/>
+      </sourceElements>
+      <targetElements name="p">
+        <object href="petrinet.model#//@arcs.0"/>
+      </targetElements>
+    </links>
+  </rules>
+</trace:TraceLinkSet>

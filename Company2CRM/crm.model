@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:crm="http://cs.gssi.it/crmMM">
+  <crm:CRM address="www.IBM.com/Rome">
+    <accounts username="mario.rossi"/>
+    <projects name="BIRDS" area="Smart City" budget="4000"/>
+    <projects name="Gairgoyle" area="Smart City" budget="500"/>
+  </crm:CRM>
+  <crm:CRM address="www.Nokia.com/Rome">
+    <accounts username="John.Doe"/>
+    <projects name="DFAProj" area="Smart City"/>
+  </crm:CRM>
+  <crm:Worker name="John Doe" account="/1/@accounts.0"/>
+  <crm:Client name="Mario Rossi" account="/0/@accounts.0"/>
+</xmi:XMI>

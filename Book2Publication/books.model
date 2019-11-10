@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<book:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:book="http://cs.gssi.it/book" xmi:id="_VwQT8OA-EemS-cu8nkBOig">
+  <books xmi:id="_YDcCsP-nEemUkNVyKpgbBA" isbn="323143e" name="Learning Java" authors="_XFhT0P-lEemUkNVyKpgbBA" nbpages="32">
+    <sections xsi:type="book:Paragraph" xmi:id="_O-c-4P_NEemTjfjFFYbrew" title="Abstract"/>
+    <sections xsi:type="book:Section" xmi:id="_gQKzkP-nEemUkNVyKpgbBA" title="Introduction"/>
+    <sections xsi:type="book:Section" xmi:id="_h5VJwP-nEemUkNVyKpgbBA" title="State of the art"/>
+  </books>
+  <authors xmi:id="_XFhT0P-lEemUkNVyKpgbBA" name="Gino"/>
+  <authors xmi:id="_YgmKsP-lEemUkNVyKpgbBA" name="Peppino"/>
+</book:Library>

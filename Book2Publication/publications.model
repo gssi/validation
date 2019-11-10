@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pub:Publications xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pub="http://cs.gssi.it/publication">
+  <pubs nbpages="32" title="Learning Java" uid="323143e" authors="Gino">
+    <sections title="Abstract"/>
+    <sections title="Introduction"/>
+    <sections title="State of the art"/>
+  </pubs>
+</pub:Publications>
